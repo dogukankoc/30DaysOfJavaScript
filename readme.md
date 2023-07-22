@@ -12,8 +12,8 @@ Asabeneh provided [30 Days of JavaScript](https://github.com/Asabeneh/30-Days-Of
 
 | Day  | Topics                                                                                                                                  | Status       |
 | :--- | :-------------------------------------------------------------------------------------------------------------------------------------- | :----------- |
-| `01` | **[Introduction](#)**                                                                                                                   | `In Progress`|
-| `02` | **[Data Types](#)**                                                                                                                     |              | 
+| `01` | **[Introduction](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/ECommerceAPI)**                                    | `Done`       |
+| `02` | **[Data Types](#)**                                                                                                                     | `In Progress`| 
 
 <hr/>
 </div>
