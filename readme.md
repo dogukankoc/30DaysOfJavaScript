@@ -14,8 +14,8 @@ Asabeneh provided [30 Days of JavaScript](https://github.com/Asabeneh/30-Days-Of
 | `01` | **[Introduction](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day1)**                                            | `Done`       |
 | `02` | **[Data Types](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day2)**                                              | `Done`       | 
 | `03` | **[Booleans, Operators, Date](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day3)**                               | `Done`       | 
-| `04` | **[Conditionals](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day4)**                                            | `In Progress`| 
-| `05` | **[Arrays](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day5)**                                                  | `To do`      | 
+| `04` | **[Conditionals](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day4)**                                            | `Done`       | 
+| `05` | **[Arrays](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day5)**                                                  | `In Progress`| 
 | `06` | **[Loops](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day6)**                                                   | `To do`      | 
 | `07` | **[ Functions](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day7)**                                              | `To do`      | 
 | `08` | **[Objects](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day8)**                                                 | `To do`      | 
