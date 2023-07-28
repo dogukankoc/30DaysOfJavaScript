@@ -1,6 +1,6 @@
 ### ![image](https://github.com/dogukankoc/ECommerceWebApplication/assets/109290790/f357b3c3-d0a0-4ab9-a06c-ff87ecea00c0) Hello World 
 
-Asabeneh provided [30 Days of JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript/tree/master) challenge. I will work hard to finish. 
+Asabeneh provided [30 Days Of JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript/tree/master) challenge. I will work hard to finish. 
 <div align= "center">
 <br/>
 <hr/>
@@ -15,8 +15,8 @@ Asabeneh provided [30 Days of JavaScript](https://github.com/Asabeneh/30-Days-Of
 | `02` | **[Data Types](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day2)**                                              | `Done`       | 
 | `03` | **[Booleans, Operators, Date](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day3)**                               | `Done`       | 
 | `04` | **[Conditionals](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day4)**                                            | `Done`       | 
-| `05` | **[Arrays](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day5)**                                                  | `In Progress`| 
-| `06` | **[Loops](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day6)**                                                   | `To do`      | 
+| `05` | **[Arrays](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day5)**                                                  | `Done`       | 
+| `06` | **[Loops](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day6)**                                                   | `In Progress`| 
 | `07` | **[ Functions](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day7)**                                              | `To do`      | 
 | `08` | **[Objects](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day8)**                                                 | `To do`      | 
 | `09` | **[Higher Order Functions](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day9)**                                  | `To do`      | 
