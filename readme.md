@@ -16,8 +16,8 @@ Asabeneh provided [30 Days Of JavaScript](https://github.com/Asabeneh/30-Days-Of
 | `03` | **[Booleans, Operators, Date](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day3)**                               | `Done`       | 
 | `04` | **[Conditionals](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day4)**                                            | `Done`       | 
 | `05` | **[Arrays](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day5)**                                                  | `Done`       | 
-| `06` | **[Loops](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day6)**                                                   | `In Progress`| 
-| `07` | **[ Functions](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day7)**                                              | `To do`      | 
+| `06` | **[Loops](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day6)**                                                   | `Done`       | 
+| `07` | **[ Functions](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day7)**                                              | `In Progress`| 
 | `08` | **[Objects](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day8)**                                                 | `To do`      | 
 | `09` | **[Higher Order Functions](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day9)**                                  | `To do`      | 
 | `10` | **[Sets and Maps](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day10)**                                          | `To do`      | 
@@ -27,7 +27,7 @@ Asabeneh provided [30 Days Of JavaScript](https://github.com/Asabeneh/30-Days-Of
 | `14` | **[Error Handling](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day14)**                                         | `To do`      | 
 | `15` | **[Classes](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day15)**                                                | `To do`      | 
 | `16` | **[JSON](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day16)**                                                   | `To do`      | 
-| `17` | **[Web Storages](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day17)**                                           | `To do`      | 
+| `17` | **[Web Storages](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day17)**                                           | `Done`       | 
 | `18` | **[Promises](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day18)**                                               | `To do`      | 
 | `19` | **[Closure](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day19)**                                                | `To do`      | 
 | `20` | **[Writing Clean Code](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day20)**                                     | `To do`      | 
