@@ -17,8 +17,8 @@ Asabeneh provided [30 Days Of JavaScript](https://github.com/Asabeneh/30-Days-Of
 | `04` | **[Conditionals](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day4)**                                            | `Done`       | 
 | `05` | **[Arrays](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day5)**                                                  | `Done`       | 
 | `06` | **[Loops](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day6)**                                                   | `Done`       | 
-| `07` | **[ Functions](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day7)**                                              | `In Progress`| 
-| `08` | **[Objects](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day8)**                                                 | `To do`      | 
+| `07` | **[ Functions](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day7)**                                              | `Done`       | 
+| `08` | **[Objects](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day8)**                                                 | `In Progress`| 
 | `09` | **[Higher Order Functions](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day9)**                                  | `To do`      | 
 | `10` | **[Sets and Maps](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day10)**                                          | `To do`      | 
 | `11` | **[Destructuring and Spreading](https://github.com/dogukankoc/30DaysOfJavaScriptExercises/tree/main/Day11)**                            | `To do`      | 
