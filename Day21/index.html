@@ -1,0 +1,54 @@
+<!-- Exercises
+Exercise: Level 1
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="first-paragraph">Lorem ipsum dolor sit amet.</p>
+    <p id="second-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo?</p>
+    <p id="third-paragraph" class="third-class">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis veritatis excepturi modi.</p>
+    <p id="fourth-paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, aspernatur. Minima consectetur aperiam nostrum obcaecati!</p>
+    <script>
+// 1. Create an index.html file and put four p elements as above: Get the first paragraph by using document.querySelector(tagname) and tag name
+        const firstParagraph = document.querySelector('p')
+        console.log(firstParagraph)
+// 2. Get each of the the paragraph using document.querySelector('#id') and by their id
+        const firstId = document.querySelector('#first-paragraph')
+        const secondId = document.querySelector('#second-paragraph')
+        const thirdId = document.querySelector('#third-paragraph')
+        const fourthId = document.querySelector('#fourth-paragraph')
+        console.log(firstId, secondId, thirdId, fourthId)
+//3. Get all the p as nodeList using document.querySelectorAll(tagname) and by their tag name
+        const paragraphs = document.querySelectorAll('p')
+//4. Loop through the nodeList and get the text content of each paragraph
+        for (let i = 0; i < paragraphs.length; i++) {
+            console.log(paragraphs[i].textContent)
+        }
+//5. Set a text content to paragraph the fourth paragraph, Fourth Paragraph
+        fourthId.textContent = "Fourth Paragraph"
+        console.log(fourthId.textContent)
+//6. Set id and class attribute for all the paragraphs using different attribute setting methods
+        firstId.className = 'first-paragraph'
+        firstId.id = 'first-paragraph-changed'
+
+        secondId.setAttribute('class','new-class-name')
+        secondId.setAttribute('id','new-id-name')
+
+        thirdId.classList.add('new-third-class')
+        thirdId.setAttribute('id', 'new-id-name')
+
+        fourthId.className = 'fourth-paragraph'
+        fourthId.id = 'fourth-paragraph-changed'
+
+        console.log(firstId, secondId, thirdId,fourthId)
+    </script>
+</body>
+</html>
+
+<!-- Exercise: Level 2 -->
