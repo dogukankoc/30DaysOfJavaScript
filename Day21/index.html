@@ -7,7 +7,7 @@ Exercise: Level 1
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Exercise - 1</title>
 </head>
 <body>
     <p id="first-paragraph">Lorem ipsum dolor sit amet.</p>
@@ -52,3 +52,71 @@ Exercise: Level 1
 </html>
 
 <!-- Exercise: Level 2 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercise - 2</title>
+</head>
+<body>
+        <p id="first-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, dignissimos!</p>
+        <p id="second-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptates dolor a! Voluptatem, hic dolor!</p>
+        <p id="third-paragraph">Lorem ipsum dolor sit amet.</p>
+        <p id="fourth-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur explicabo voluptates facere corporis commodi quae excepturi placeat necessitatibus autem perspiciatis!</p>
+<script> 
+//1. Change stye of each paragraph using JavaScript(eg. color, background, border, font-size, font-family)
+        let firstP = document.querySelector('#first-paragraph')
+        
+        firstP.style.color = 'green'
+        firstP.style.backgroundColor = 'gray'
+        firstP.style.fontSize = '26px'
+        firstP.style.fontFamily = 'fantasy'
+
+        let secondP = document.querySelector('#second-paragraph')
+        
+        secondP.style.color = 'yellow'
+        secondP.style.backgroundColor = 'blue'
+        secondP.style.fontSize = '50px'
+        secondP.style.fontFamily = 'cursive'
+
+        let thirdP = document.querySelector('#third-paragraph')
+
+        thirdP.style.cssText = 'background-color : purple; font-size: 47px; color:black; font-family:fangsong;'
+
+        let fourthP = document.querySelector('#fourth-paragraph')
+
+        fourthP.style.cssText = 'background-color : black; font-size: 23px; color:white; font-family:monospace;'
+
+//2. Select all paragraphs and loop through each elements and give the first and third paragraph a color of green, and the second and the fourth paragraph a red color
+        let allP = document.querySelectorAll('p')
+        
+        allP.forEach((paragraphs, i) => {
+                if(i%2 == 0) {
+                        allP[i].style.color = 'green'
+                }               
+                else {
+                        allP[i].style.color = 'red'
+                }
+        })
+
+//3. Set text content, id and class to each paragraph
+        firstP.textContent = 'This is new content for first paragraph'
+        firstP.className = 'new-class'
+        firstP.id = 'new-id'
+
+        secondP.textContent = 'This is new content for second paragraph'
+        secondP.className = 'new-class'
+        secondP.id = 'new-id'
+
+        thirdP.textContent = 'This is new content for third paragraph'
+        thirdP.className = 'new-class'
+        thirdP.id = 'new-id'
+
+        fourthP.textContent = 'This is new content for fourth paragraph'
+        fourthP.className = 'new-class'
+        fourthP.id = 'new-id'
+ </script>
+</body>
+</html>
