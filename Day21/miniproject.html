@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JavaScript for Everyone:DOM</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Asabeneh Yetayeh challenges in <span id="year">2024</span></h1>
+      <h2>30DaysOfJavaScript Challenge</h2>
+      <div id="date-time"></div>
+      <ul>
+        <li>30DaysOfPython Challenge Done</li>
+        <li>30DaysOfJavaScript Challenge Ongoing</li>
+        <li>30DaysOfReact Challenge Coming</li>
+        <li>30DaysOfFullStack Challenge Coming</li>
+        <li>30DaysOfDataAnalysis Challenge Coming</li>
+        <li>30DaysOfReactNative Challenge Coming</li>
+        <li>30DaysOfMachineLearning Challenge Coming</li>
+      </ul>
+    </div>
+    <script>
+      //Titles
+      const container = document.querySelector(".wrapper");
+      container.style.textAlign = "center";
+
+      const year = document.querySelector("#year");
+      year.style.fontSize = "100px";
+      var colors = ["red", "yellow", "green"];
+
+      var currentIndex = 0;
+
+      function changeColor() {
+        year.style.color = colors[currentIndex];
+        currentIndex = (currentIndex + 1) % colors.length;
+      }
+
+      setInterval(changeColor, 2000);
+
+      const h2Title = document.querySelector("h2");
+      h2Title.style.textDecoration = "underline";
+      h2Title.style.fontWeight = "normal";
+
+       // Date / Time
+
+        const dateTime = document.querySelector('#date-time')
+        dateTime.style.maxWidth = '250px'
+        dateTime.style.height = '25px'
+        dateTime.style.padding = '2px'
+        dateTime.style.margin = '2px'
+        dateTime.style.display = "flex";
+        dateTime.style.alignItems = "center";
+        dateTime.style.justifyContent = "center";
+        dateTime.style.position = 'relative'
+        dateTime.style.left = '43%'
+        dateTime.style.fontSize = '15px'
+        dateTime.style.fontWeight = '800'
+
+        function changeBackgroundColor() {
+        dateTime.style.backgroundColor = colors[currentIndex];
+        currentIndex = (currentIndex + 1) % colors.length;
+      }
+
+      setInterval(changeBackgroundColor, 2000);
+
+        function updateClock() {
+        let now = new Date();
+
+        let options = {
+          year: "numeric",
+          month: "long",
+          day: "numeric",
+          hour: "2-digit",
+          minute: "2-digit",
+          second: "2-digit",
+        };
+
+        let formattedDate = new Intl.DateTimeFormat("en-US", options).format(
+          now
+        );
+
+        let clockElement = document.getElementById("date-time");
+        clockElement.textContent = formattedDate;
+      }
+
+      updateClock(); 
+      setInterval(updateClock, 1000);
+
+      //List
+      const unOrderedList = document.querySelector("ul");
+      unOrderedList.style.position = "relative";
+      unOrderedList.style.width = "750px";
+      unOrderedList.style.left = "28%";
+      unOrderedList.style.listStyleType = "none";
+
+      const listItems = document.querySelectorAll("li");
+      listItems.forEach((listItem, i) => {
+        switch (i) {
+          case 0:
+            listItem.style.backgroundColor = "#5BBC7A";
+            break;
+          case 1:
+            listItem.style.backgroundColor = "#F7DC5C";
+            break;
+          default:
+            listItem.style.backgroundColor = "#EB695B";
+        }
+
+        listItem.style.height = "55px";
+        listItem.style.display = "flex";
+        listItem.style.alignItems = "center";
+        listItem.style.margin = "2px";
+        listItem.style.padding = "5px";
+      });
+    </script>
+  </body>
+</html>
